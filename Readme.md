@@ -51,7 +51,7 @@ Fonctionnalité le quel on souhaite définir le comportement attendu, le méme q
 Feature : Search article in Wikipedia
 
     Given Enter search term '<searchTerm>'
-    When Do search
+    When Do search '<searchTerm>'
     Then Multiple results are shown for '<result>' 
 ```
   
