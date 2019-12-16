@@ -24,7 +24,7 @@ au final pour le développement d'une fonctionnalité faut produire un sujet ave
 
 
 
-## 2. Définir les sénarios ( régle métier ):
+## 2. Définir les sénarios ( Régle métier ):
 ![Build Status](https://github.com/marouaneaba/BDD_Gherkin/blob/master/2.png)
 
 dans notre projet, faut créez un nouveau Source Folder que vous appellerez src/test/resources. et de créez un fichier wiki.feature dans un package dojo de src/test/resources.
@@ -73,7 +73,7 @@ L'annotation @RunWith(Cucumber.class) permet d'exécuter les scénarios Cucumber
 Le lanceur de test fait le mapping entre les étapes des scénarios écrites de manière naturelle (fichier .feature) et les méthodes Java implémentant ces étapes. Les étapes Java
 sont appelées des steps et sont définies grâce à des annotations spécifiques : @Given, @When, @Then.
 
-```
+```java
 package dojo;
 
 import cucumber.api.junit.Cucumber;
