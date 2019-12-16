@@ -89,5 +89,7 @@ public class RunCucumberTest { }
 
 - Diriger le développeur sur le développement.
 
+- L’acronyme 'INVEST' Story.
+
 
 ## 5. pratique:
