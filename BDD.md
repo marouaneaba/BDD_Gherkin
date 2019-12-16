@@ -2,6 +2,9 @@
 
 ## 1. Introduction:
 
+![Build Status](https://github.com/marouaneaba/BDD_Gherkin/blob/master/BDD_AND-TDD.png)
+![Build Status](https://github.com/marouaneaba/BDD_Gherkin/blob/master/1.png)
+
 Le behavior driven developpement est une méthode créer en 2003 par Dan North. Gherkin est un langage qui permet de décrire le comportement attendu par un module, qui se base sur un formalisme : Given - When - Then Gherkin a pour objectif de promouvoir les pratiques de développement axées sur le comportement.
 
 Les tests écris en TDD sont moins compréhensible, sont loin du langage naturel, est difficile d'étre le document sur lequel des acteurs développeur ( technique ) et PO ( métier ) peuvent echanger.
