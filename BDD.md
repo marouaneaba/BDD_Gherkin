@@ -22,6 +22,7 @@ au final pour le développement d'une fonctionnalité faut produire un sujet ave
 
 
 ## 2. Définir les sénarios ( régle métier ):
+https://github.com/marouaneaba/BDD---Gherkin/blob/master/Capture%20d%E2%80%99e%CC%81cran%202019-12-16%20a%CC%80%2023.02.04.png
 
 dans notre projet, faut créez un nouveau Source Folder que vous appellerez src/test/resources. et de créez un fichier wiki.feature dans un package dojo de src/test/resources.
 Le Inttelij detecte l'extension .feature, et il faut remplir ce fichier par des scénarios.
