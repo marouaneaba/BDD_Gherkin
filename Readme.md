@@ -396,25 +396,5 @@ Dérouler le résultat ses Junit dans IntelliJ. On voit toutes les instances du 
 Minimiser son effort. Be Lazy.
 
 
-### Retrospective apport BDD
-
-
-On vient de voir comment Cucumber pouvait nous aider à :
-
-  - Écrire des specs presque comme des stories
-  - Mapper ces specs sur des tests U
-  - Rendre le tout paramétrable a coup d’expressions rationnelles.
-
-Software engineering rocks ^^.
-
-Attention, ça ne veut pas dire qu’on écrit plus de tests unitaires ni de tests d’intégration. Loin de là. On va forcément avoir des tests à écrire sur des fonctionalités précises. 
-
-L’avantage du BDD est de travailler avec des scénarios de spécifications exprimés dans les termes du métiers, qui rendent les choses compréhensible pour un client. 
-
-D’un point de vue agile, c’est une manière d’exposer les tests d’acceptations des stories. Il y a certes un effort pour écrire ces scénarios, mais au final tout le monde y gagne (lisibilité, maintenance).
-
-
-Cela revient à définir ce qu’est le métier. Et c’est pas simple.
-
 
 
