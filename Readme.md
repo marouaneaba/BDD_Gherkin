@@ -398,22 +398,22 @@ Minimiser son effort. Be Lazy.
 
 ----
 ## Qu'est ce que le BDD ?
-C'est avant tout une méthode Agile qui favorise la conversation entre les développeurs (DEV), les responsables qualités (QSI), les intervenants non-techniques (PO/BA) et les dépendances (adhérences avec d'autres équipes)<br/>
+- C'est avant tout une méthode Agile qui favorise la conversation entre les développeurs (DEV), les responsables qualités (QSI), les intervenants non-techniques (PO/BA) et les dépendances (adhérences avec d'autres équipes)<br/>
 
-C'est une partie de la spécification par l'exemple qui vise à spécifier ensemble via des conversations pour sortir des règles et des exemples.<br/>
-C’est également une pratique de développement (et pas une pratique de test...) qui vise à automatiser un critère d'acceptation formalisé à l'aide de la syntaxe Gherkin. <br/>
+- C'est une partie de la spécification par l'exemple qui vise à spécifier ensemble via des conversations pour sortir des règles et des exemples.<br/>
+- C’est également une pratique de développement (et pas une pratique de test...) qui vise à automatiser un critère d'acceptation formalisé à l'aide de la syntaxe Gherkin. <br/>
 
-L'atelier 3 Amigos est un pré-requis pour la mise en oeuvre de la pratique de DEV. C'est en effet durant cet atelier que les exemples qui illustrent le comportement d'une règle métier sont définis (Example Mapping).<br/>
-Les exemples automatisés par le développeur sont archivés dans GIT et exécutés via une Build. <br/>
-Idéalement les tests automatisés doivent remonter dans l'outil de suivi des tests pour apparaître dans le "cahier de recette"<br/>
-Il est possible également de mettre à disposition ces exemples sur un site Web avec l'outil PicklesDoc.   <br/>
+- L'atelier 3 Amigos est un pré-requis pour la mise en oeuvre de la pratique de DEV. C'est en effet durant cet atelier que les exemples qui illustrent le comportement d'une règle métier sont définis (Example Mapping).<br/>
+- Les exemples automatisés par le développeur sont archivés dans GIT et exécutés via une Build. <br/>
+- Idéalement les tests automatisés doivent remonter dans l'outil de suivi des tests pour apparaître dans le "cahier de recette"<br/>
+- Il est possible également de mettre à disposition ces exemples sur un site Web avec l'outil PicklesDoc.   <br/>
 ## BDD versus TDD
-Les critères d'acceptations (Exemples issus de l'atelier 3 Amigos) sont posés avant de développer en tant que scénarios Gherkin<br/>
-Le développeur fait des cycles de TDD pour faire passer en vert les scénarios<br/>
-Les tests unitaires posés lors des cycles TDD ne doivent pas être sur le même périmètre de test, ils doivent rajouter des exigences techniques.<br/>
-D'autres tests unitaires sont ajoutés lors de la partie Refactor pour les concepts Clean Clode.<br/>
-Les Tests BDD sont donc les tests fonctionnels<br/>
-Les Tests TDD sont donc les tests techniques<br/>
+- Les critères d'acceptations (Exemples issus de l'atelier 3 Amigos) sont posés avant de développer en tant que scénarios Gherkin<br/>
+- Le développeur fait des cycles de TDD pour faire passer en vert les scénarios<br/>
+- Les tests unitaires posés lors des cycles TDD ne doivent pas être sur le même périmètre de test, ils doivent rajouter des exigences techniques.<br/>
+- D'autres tests unitaires sont ajoutés lors de la partie Refactor pour les concepts Clean Clode.<br/>
+- Les Tests BDD sont donc les tests fonctionnels<br/>
+- Les Tests TDD sont donc les tests techniques<br/>
 ## Bénéfices
 ### Documentation vivante
 Gherkin est une syntaxe naturelle qui est comprise par tous. Ces tests sont archivés et exécutés à chaque mise à jour du code. Associé à Pickles, nous disposons alors d'une documentation HTLM à jour du projet.  <br/>
