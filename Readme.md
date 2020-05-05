@@ -1,5 +1,6 @@
 # BDD - Behavior Driven Development
 
+Dojo use Behavior Driven development, November 2019, animated by marouane.<br/>
 
 ### Introduction :
 Le behavior driven developpement est une méthode créer en 2003 par Dan North.
